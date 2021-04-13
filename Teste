@@ -1,0 +1,33 @@
+package br.edu.univas;
+
+public class questao7 {
+
+	
+	public static void main(String[] args) {	
+			int a = 6;
+		    int b = 2;
+		    int c = 4;
+		    int d = -5;
+		    int e = -2;
+		    int contador = 0;
+		    
+		    if (a < 0) {
+		    	contador++;
+		    }
+		    if (b < 0) {
+		    	contador++;
+		    }
+		    if (c < 0) {
+		    	contador++;
+		    }
+		    if (d < 0) {
+		    	contador++;
+		    }
+		    if (e < 0) {
+		    	contador++;
+		    }
+		    
+		    System.out.println("Quantidade de números negativos:" +contador);
+		    
+	}
+}
