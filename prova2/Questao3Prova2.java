@@ -1,7 +1,7 @@
 package br.edu.univas.prova;
 import java.util.Scanner;
 
-public class Questao1Prova2 {
+public class Questao3Prova2 {
 
 	public static void main(String[] args) {
 		Scanner leitura = new Scanner(System.in);
