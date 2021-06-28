@@ -6,14 +6,14 @@ public class Questao1Prova2 {
 	public static void main(String[] args) {
 		Scanner leitura = new Scanner(System.in);
 		
-		double[] peso = new double [5];
-		double[] altura = new double [5];
+		double[] peso = new double [100];
+		double[] altura = new double [100];
 
 		int normal = 0;
 		double imc = 0;
 		int porcentagemnormal = 0;
 		
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 100; i++) {
 			System.out.println("Digite o peso");
 			peso[i] = leitura.nextDouble();
 			System.out.println("Digite a altura");
